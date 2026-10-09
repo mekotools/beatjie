@@ -11,6 +11,8 @@ from pathlib import Path
 
 NOTIZ = ("Angepasste Fassung für MekoTools: alle 32 Klänge wurden durch freie Aufnahmen "
          "(CC0) ersetzt, die Zählung im Netz entfernt. Kein Ton verlässt das Gerät.")
+NOTIZ_KURZ = ("Angepasste Fassung für MekoTools: Klänge durch freie Aufnahmen (CC0) ersetzt, "
+              "keine fremden Aufrufe.")
 
 ANZ = 32
 
@@ -94,8 +96,13 @@ def main():
     # 5. Zählung im Netz entfernen (Fremdaufruf)
     a = app.read_text()
     block = re.search(r"\n\s*<script\s+data-goatcounter[\s\S]*?</script>", a)
-    anker(block is not None, "Zähl-Baustein (goatcounter) nicht gefunden")
-    a = a[:block.start()] + "\n" + a[block.end():]
+    if block is not None:
+        a = a[:block.start()] + "\n" + a[block.end():]
+        print("src/app.html: Zählung entfernt")
+    elif "goatcounter" in a:
+        sys.exit("ANKER: Zähl-Baustein in unerwarteter Form")
+    else:
+        print("src/app.html: Zählung war schon entfernt (zweiter Lauf)")
     anker("goatcounter" not in a, "goatcounter noch vorhanden")
 
     # 6. Adressangaben auf unsere Auslieferung und ehrliche Beschreibung
@@ -121,6 +128,26 @@ def main():
         print("Intro: MekoTools-Hinweis ergänzt")
     else:
         print("Intro: MekoTools-Hinweis war schon vorhanden")
+
+    # 7b. Derselbe Hinweis dauerhaft in der Einstellungsleiste: der Startbild-
+    # schirm verschwindet nach der Ton-Bestätigung, die Kennzeichnung als
+    # geänderte Fassung muss aber auffindbar bleiben.
+    einst = quelle / "src/lib/components/app-settings.svelte"
+    anker(einst.is_file(), "app-settings.svelte fehlt")
+    e = einst.read_text()
+    if NOTIZ_KURZ not in e:
+        stelle = "</div>\n\n<style>"
+        anker(stelle in e, "Ankerstelle in app-settings.svelte nicht gefunden")
+        e = e.replace(stelle,
+                      '</div>\n\n<p class="mt-hinweis">' + NOTIZ_KURZ + "</p>\n\n<style>", 1)
+        regel = "  .mt-hinweis {\n    text-align: center;\n    font-size: 0.5rem;\n" \
+                "    opacity: 0.6;\n    margin: 0.1rem 0 0;\n  }\n"
+        anker("</style>" in e, "kein Stilblock in app-settings.svelte")
+        e = e.replace("</style>", regel + "</style>", 1)
+        einst.write_text(e)
+        print("Einstellungen: dauerhafter MekoTools-Hinweis ergänzt")
+    else:
+        print("Einstellungen: Hinweis war schon vorhanden")
 
 
 if __name__ == "__main__":
