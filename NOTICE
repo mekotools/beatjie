@@ -1,0 +1,65 @@
+# Herkunft und Rechte — Beatjie, angepasste Fassung für MekoTools
+
+Dieses Verzeichnis enthält den Bau der MekoTools-Auslieferung von **Beatjie**
+(Original: https://github.com/dindles/beatjie, Autor: Dindles).
+Der Quelltext stammt festgeschrieben aus dem amtlichen Archiv
+`3e7aea257bf6ecc378067f195a959b3dbbf74035` (12. Juni 2026) und wird beim Bau
+nicht verändert, außer an den unten genannten Stellen.
+
+## 1. Lizenz
+
+Das Original steht unter **Creative Commons Attribution-NonCommercial-ShareAlike
+4.0 International** (CC BY-NC-SA 4.0). Diese angepasste Fassung wird unter
+**derselben Lizenz** weitergegeben (Auflage der ShareAlike-Klausel).
+
+Namensnennung: Beatjie — Dindles (https://dindles.net/beatjie),
+Änderungen für MekoTools (siehe Punkt 3).
+
+MekoTools ist ein nicht-kommerzielles Angebot für Bildungseinrichtungen. Sollte
+dieses Angebot später kostenpflichtig betrieben werden, müssen die Werkzeuge mit
+NC-Lizenz — also auch dieses — vorher entfernt werden.
+
+## 2. Warum die Klänge ersetzt wurden
+
+Das Original liefert 32 Klangdateien mit. Für **keine einzige** von ihnen ist eine
+Herkunft belegt: die Dateien tragen keine Kennzeichnung (weder RIFF- noch
+ID3-Angaben), und das Projekt nennt keine Quelle — im ganzen Quelltext steht kein
+Hinweis auf ein Klangpaket, keine Lizenzdatei für Klänge, kein Dank an eine
+Klangquelle.
+
+Klänge ohne belegbare Herkunft geben wir nicht weiter. Sie sind in dieser Fassung
+**nicht** enthalten.
+
+## 3. Was geändert wurde
+
+1. **Alle 32 Klänge ersetzt** durch freie Aufnahmen (CC0 1.0, also ohne
+   Namensnennungspflicht — wir nennen die Quellen trotzdem):
+   - **Stargate Sample Pack** (Stargate DAW) — 6 Klänge
+   - **Versilian Community Sample Library (VCSL)** — 6 Klänge
+   - **VSCO 2 Community Edition** — 4 Klänge
+   - **Freesound** (Aufnahmen einzelner Urheber, CC0) — 16 Klänge
+   Beleg für jeden einzelnen Klang: `klang/manifest.json`, im Werkzeug selbst in
+   den ID3-Feldern jeder Datei (Urheber, Werk, Lizenz, Ursprungsdatei).
+2. **Zählung im Netz entfernt:** das Original lädt ein Zählskript von
+   `goatcounter.com` (Besuchsstatistik beim Autor). Es ist ersatzlos gestrichen.
+   Das Werkzeug ruft zur Laufzeit keine fremde Adresse auf.
+3. **Adressangaben** in `src/app.html` zeigen auf unsere Auslieferung
+   (`beatjie.mekotools.de`) statt auf die Seite des Autors.
+4. **Sichtbarer Hinweis** im Startbild, dass es sich um eine angepasste Fassung
+   für MekoTools handelt — mit dem Hinweis, dass kein Ton das Gerät verlässt.
+
+Der Urheberverweis des Originals (Symbol und Verweis auf dindles.net) bleibt
+erhalten.
+
+## 4. Was unverändert bleibt
+
+Aufbau, Klangerzeugung (Tone.js), Bedienoberfläche, Tastaturkürzel, das Teilen
+von Mustern über den Link und das Beispielvideo des Autors sind unverändert.
+Es gibt keine Anmeldung, keine Konten und keine Ablage auf einem Server: Muster
+liegen im Link, alles Weitere im Speicher des Browsers.
+
+## 5. Klangformat der neuen Dateien
+
+MP3, 44,1 kHz, mono, 192 kbit/s, Spitze rund −1,5 dBFS, Länge 0,13–1,23 s
+(Mittel 0,43 s), insgesamt 460 KB. Die Originalnamen der Klänge sind erhalten
+geblieben, damit der Quelltext unverändert bleibt.

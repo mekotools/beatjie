@@ -1,0 +1,53 @@
+# Metadaten des MekoTools-Werkzeugs "Beatjie".
+# Schema: schema/tool.schema.json im Katalog-Repo. Werte ohne Beleg werden
+# nicht eingetragen. Die id ist stabil und wird nie umbenannt.
+
+schema_version: 1
+
+id: mekotools-beatjie
+titel: Beatjie
+kurzbeschreibung: 'Eine kleine Schlagzeug-Maschine im Browser: vier Klangsätze mit je acht Stimmen, sechzehn Schritte, Tempo von 60 bis 200, je Klang Tonhöhe, Echo und Hall, dazu ein Hochpass und eine Verzerrung für den ganzen Satz — ein Muster lässt sich als Link weitergeben, ohne Konto. Alle 32 Klänge sind freie Aufnahmen und liegen auf dem eigenen Server.'
+themen: [creation]
+unterthemen: [creation/audio]
+stufe: 3
+schlagworte: [ton]
+
+laufzeit: browser
+betrieb: eigen
+reifegrad: beta
+aufwand_lehrkraft: niedrig
+
+zielgruppe: [sek1, sek2]
+geraete: [desktop, tablet]
+kamera: nein
+mikrofon: nein
+
+bildungsbezug:
+  kompetenzen:
+    - produzieren-praesentieren
+    - analysieren-reflektieren
+    - problemloesen-handeln
+  faecher: [musik, informatik]
+  lernziele:
+    - Aus vier Klangsätzen einen auswählen und ein Muster in sechzehn Schritten setzen
+    - Tonhöhe, Echo und Hall eines einzelnen Klangs verändern und beschreiben, wie sich der Klang dadurch ändert
+    - Ein fertiges Muster als Link weitergeben und beim Empfänger wieder öffnen
+
+technik:
+  artefakte:
+    - typ: image
+      referenz: ghcr.io/mekotools/beatjie:latest
+      sichtbarkeit: public
+      geprueft_am: '2026-10-10'
+  dienst_url: https://beatjie.mekotools.de
+  port: 80
+  quellcode: https://github.com/dindles/beatjie
+  lizenz: CC BY-NC-SA 4.0
+  lizenz_link: https://github.com/dindles/beatjie/blob/main/LICENSE
+
+doku:
+  anleitung: docs/anleitung.md
+  didaktik: docs/didaktik.md
+  unterrichtsentwurf: docs/unterrichtsentwurf.md
+
+stand: '2026-10-10'

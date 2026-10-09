@@ -1,0 +1,8 @@
+# Nichts ausschliessen, was der Bau kopiert!
+# klang/ und scripts/ werden vom Dockerfile gebraucht. Standen sie hier, brach
+# der Bau mit "failed to calculate checksum ... not found" ab — das sieht wie
+# ein fehlender Klangordner aus, ist aber diese Liste.
+.git
+.github
+node_modules
+*.log

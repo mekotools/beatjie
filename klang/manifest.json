@@ -1,0 +1,546 @@
+[
+ {
+  "ziel": "0/0_kick-909.mp3",
+  "label": "kick",
+  "rolle": "Bass Drum (Synthesizer)",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/freesound/drums/kick/266764__hard3eat__synth-kick-3.wav",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/freesound/drums/kick/266764__hard3eat__synth-kick-3.wav",
+  "ziel_dauer": 0.16,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "hard3eat (über Stargate Sample Pack)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": "Freesound-Aufnahme von hard3eat"
+  }
+ },
+ {
+  "ziel": "0/1_clap.mp3",
+  "label": "clap",
+  "rolle": "Handklatschen",
+  "quelle": "vcsl",
+  "quellpfad": "Idiophones/Struck Idiophones/Claps/Clap_rr1.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck Idiophones/Claps/Clap_rr1.wav",
+  "ziel_dauer": 0.18,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/2_snare.mp3",
+  "label": "snare",
+  "rolle": "Snare Drum",
+  "quelle": "vcsl",
+  "quellpfad": "Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_ff1.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_ff1.wav",
+  "ziel_dauer": 0.29,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/3_ch2.mp3",
+  "label": "closed hat",
+  "rolle": "geschlossene Hi-Hat",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/fugue-state-audio/drums/hihats/synthkit-hatclsd.wav",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/fugue-state-audio/drums/hihats/synthkit-hatclsd.wav",
+  "ziel_dauer": 0.16,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Stargate DAW (Teile von Freesound, Urheber im Dateinamen)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/4_oh.mp3",
+  "label": "open hat",
+  "rolle": "offene Hi-Hat",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/fugue-state-audio/drums/hihats/synthkit-hatopen.wav",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/fugue-state-audio/drums/hihats/synthkit-hatopen.wav",
+  "ziel_dauer": 0.26,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Stargate DAW (Teile von Freesound, Urheber im Dateinamen)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/5_tom.mp3",
+  "label": "tom",
+  "rolle": "Tom",
+  "quelle": "vcsl",
+  "quellpfad": "Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr1.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr1.wav",
+  "ziel_dauer": 0.29,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/6_cow.mp3",
+  "label": "cowbell",
+  "rolle": "Cowbell",
+  "quelle": "vcsl",
+  "quellpfad": "Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v2_rr1_Mid.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v2_rr1_Mid.wav",
+  "ziel_dauer": 0.18,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "0/7_yeah.mp3",
+  "label": "yeah",
+  "rolle": "Zustimmung, kurz",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/155/155891_1038806-hq.mp3",
+  "ziel_dauer": 0.39,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "unfa",
+   "werk": "Yeah 3",
+   "url": "https://freesound.org/s/155891/",
+   "vermerk": "Freesound Nr. 155891, Suchbegriff „yeah vocal\""
+  }
+ },
+ {
+  "ziel": "1/0_kick-505.mp3",
+  "label": "kick",
+  "rolle": "Bass Drum (Synthesizer)",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/fugue-state-audio/drums/kicks/synthkit-kick.wav",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/fugue-state-audio/drums/kicks/synthkit-kick.wav",
+  "ziel_dauer": 0.1,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Stargate DAW (Teile von Freesound, Urheber im Dateinamen)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "1/1_rim.mp3",
+  "label": "rim",
+  "rolle": "Rimshot",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/freesound/drums/rimshot/132418__sajmund__rimshot-sweet.aiff",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/freesound/drums/rimshot/132418__sajmund__rimshot-sweet.aiff",
+  "ziel_dauer": 0.1,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "sajmund (über Stargate Sample Pack)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": "Freesound-Aufnahme von sajmund"
+  }
+ },
+ {
+  "ziel": "1/2_ch.mp3",
+  "label": "closed hat",
+  "rolle": "geschlossene Hi-Hat",
+  "quelle": "stargate",
+  "quellpfad": "stargate-sample-pack/fugue-state-audio/drums/hihats/x0xproc1-hatclsd.wav",
+  "adresse": "https://raw.githubusercontent.com/stargatedaw/stargate-sample-pack/main/stargate-sample-pack/fugue-state-audio/drums/hihats/x0xproc1-hatclsd.wav",
+  "ziel_dauer": 0.08,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Stargate DAW (Teile von Freesound, Urheber im Dateinamen)",
+   "werk": "Stargate Sample Pack",
+   "url": "https://github.com/stargatedaw/stargate-sample-pack",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "1/3_shaker.mp3",
+  "label": "shaker",
+  "rolle": "Shaker",
+  "quelle": "vcsl",
+  "quellpfad": "Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1D_rr2_Mid.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1D_rr2_Mid.wav",
+  "ziel_dauer": 0.26,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "1/4_crash.mp3",
+  "label": "crash",
+  "rolle": "Crash-Becken",
+  "quelle": "vcsl",
+  "quellpfad": "Idiophones/Struck Idiophones/Clash Cymbals 1/cymbal_crash1_ff2.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck Idiophones/Clash Cymbals 1/cymbal_crash1_ff2.wav",
+  "ziel_dauer": 0.55,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "Versilian Community Sample Library (VCSL)",
+   "url": "https://github.com/sgossner/VCSL",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "1/5_droplet.mp3",
+  "label": "droplet",
+  "rolle": "Wassertropfen",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/165/165206_1053041-hq.mp3",
+  "ziel_dauer": 0.08,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "metaepitome",
+   "werk": "Water Drop Sound.wav",
+   "url": "https://freesound.org/s/165206/",
+   "vermerk": "Freesound Nr. 165206, Suchbegriff „water drop\""
+  }
+ },
+ {
+  "ziel": "1/6_spring.mp3",
+  "label": "spring",
+  "rolle": "Feder",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/404/404733_140737-hq.mp3",
+  "ziel_dauer": 0.55,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "OwlStorm",
+   "werk": "Retro video game sfx - Spring 2",
+   "url": "https://freesound.org/s/404733/",
+   "vermerk": "Freesound Nr. 404733, Suchbegriff „spring boing\""
+  }
+ },
+ {
+  "ziel": "1/7_mhm.mp3",
+  "label": "mhm",
+  "rolle": "zustimmend",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/752/752227_15652019-hq.mp3",
+  "ziel_dauer": 0.52,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "PuzzleAndy",
+   "werk": "female_speaking_mhm",
+   "url": "https://freesound.org/s/752227/",
+   "vermerk": "Freesound Nr. 752227, Suchbegriff „mhm\""
+  }
+ },
+ {
+  "ziel": "2/0_house.mp3",
+  "label": "house",
+  "rolle": "Klavieranschlag",
+  "quelle": "vsco",
+  "quellpfad": "Keys/Upright Piano/Player_dyn3_rr1_000.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Keys/Upright Piano/Player_dyn3_rr1_000.wav",
+  "ziel_dauer": 0.29,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "VSCO 2 Community Edition",
+   "url": "https://github.com/sgossner/VSCO-2-CE",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "2/1_hut.mp3",
+  "label": "hut",
+  "rolle": "weicher Holzklang (Holzhütte), leise - passt zur Verstaerkung +6",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/629/629986_12715066-hq.mp3",
+  "ziel_dauer": 0.53,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Flem0527",
+   "werk": "Knocking on Wood Door (2)",
+   "url": "https://freesound.org/s/629986/",
+   "vermerk": "Freesound Nr. 629986, Suchbegriff „hut\""
+  }
+ },
+ {
+  "ziel": "2/2_bass.mp3",
+  "label": "bass",
+  "rolle": "Bass (gezupft)",
+  "quelle": "vsco",
+  "quellpfad": "Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v3_rr1.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Strings/Solo Contrabass/Pizz/BKCtbss_Pizz_A#0_v3_rr1.wav",
+  "ziel_dauer": 0.77,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "VSCO 2 Community Edition",
+   "url": "https://github.com/sgossner/VSCO-2-CE",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "2/3_yoga.mp3",
+  "label": "yoga",
+  "rolle": "ruhiger Ton",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/26/26244_186094-hq.mp3",
+  "ziel_dauer": 0.78,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "bitsmart",
+   "werk": "ohm.wav",
+   "url": "https://freesound.org/s/26244/",
+   "vermerk": "Freesound Nr. 26244, Suchbegriff „om chant\""
+  }
+ },
+ {
+  "ziel": "2/4_standup.mp3",
+  "label": "standup",
+  "rolle": "Anschlag",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/315/315705_4831592-hq.mp3",
+  "ziel_dauer": 0.47,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "spitefuloctopus",
+   "werk": "Acoustic Guitar D Major Chord Short",
+   "url": "https://freesound.org/s/315705/",
+   "vermerk": "Freesound Nr. 315705, Suchbegriff „guitar chord\""
+  }
+ },
+ {
+  "ziel": "2/5_flute.mp3",
+  "label": "flute",
+  "rolle": "Querflöte",
+  "quelle": "vsco",
+  "quellpfad": "Woodwinds/Flute/stac/LDFlute_stac_C5_v3_rr1.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Woodwinds/Flute/stac/LDFlute_stac_C5_v3_rr1.wav",
+  "ziel_dauer": 0.29,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "VSCO 2 Community Edition",
+   "url": "https://github.com/sgossner/VSCO-2-CE",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "2/6_rhodes.mp3",
+  "label": "rhodes",
+  "rolle": "Elektrisches Klavier",
+  "quelle": "vsco",
+  "quellpfad": "Keys/Organ/Loud/Rode_Man3Open_01.wav",
+  "adresse": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/master/Keys/Organ/Loud/Rode_Man3Open_01.wav",
+  "ziel_dauer": 0.31,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Versilian Studios LLC und Beitragende",
+   "werk": "VSCO 2 Community Edition",
+   "url": "https://github.com/sgossner/VSCO-2-CE",
+   "vermerk": ""
+  }
+ },
+ {
+  "ziel": "2/7_climb.mp3",
+  "label": "climb",
+  "rolle": "Wortaufnahme",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/812/812599_15956618-hq.mp3",
+  "ziel_dauer": 1.18,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "modusmogulus",
+   "werk": "Recording of a Ledge Climb (climbing to a concrete roof from a wall jump)",
+   "url": "https://freesound.org/s/812599/",
+   "vermerk": "Freesound Nr. 812599, Suchbegriff „climb\""
+  }
+ },
+ {
+  "ziel": "3/0_i-love-you.mp3",
+  "label": "i love you",
+  "rolle": "Kuss statt gesprochenem Satz - die Suche hat keinen freien Satz",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/536/536335_8838719-hq.mp3",
+  "ziel_dauer": 0.97,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "trijohnstone",
+   "werk": "Cartoon Kiss_cjohnstone.wav",
+   "url": "https://freesound.org/s/536335/",
+   "vermerk": "Freesound Nr. 536335, Suchbegriff „love you\""
+  }
+ },
+ {
+  "ziel": "3/1_spaceship.mp3",
+  "label": "spaceship",
+  "rolle": "Sci-Fi-Strahl statt Raumschiffmotor",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/333/333176_5827697-hq.mp3",
+  "ziel_dauer": 0.71,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "opensystem",
+   "werk": "beam_sound.wav",
+   "url": "https://freesound.org/s/333176/",
+   "vermerk": "Freesound Nr. 333176, Suchbegriff „spaceship\""
+  }
+ },
+ {
+  "ziel": "3/2_ice.mp3",
+  "label": "ice",
+  "rolle": "Eis",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/621/621138_13582756-hq.mp3",
+  "ziel_dauer": 0.26,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "wwstudioswastaken",
+   "werk": "Ice_Bending_01.flac",
+   "url": "https://freesound.org/s/621138/",
+   "vermerk": "Freesound Nr. 621138, Suchbegriff „ice crack\""
+  }
+ },
+ {
+  "ziel": "3/3_sonar.mp3",
+  "label": "sonar",
+  "rolle": "Sonar",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/188/188386_3501487-hq.mp3",
+  "ziel_dauer": 0.73,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "wubitog",
+   "werk": "Radar, Sonar, Scan",
+   "url": "https://freesound.org/s/188386/",
+   "vermerk": "Freesound Nr. 188386, Suchbegriff „sonar\""
+  }
+ },
+ {
+  "ziel": "3/4_tink.mp3",
+  "label": "tink",
+  "rolle": "Glas klingt",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/368/368614_3302499-hq.mp3",
+  "ziel_dauer": 0.24,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "Nightflame",
+   "werk": "cup_01.wav",
+   "url": "https://freesound.org/s/368614/",
+   "vermerk": "Freesound Nr. 368614, Suchbegriff „glass clink\""
+  }
+ },
+ {
+  "ziel": "3/5_woof.mp3",
+  "label": "woof",
+  "rolle": "einmal bellen",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/277/277058_4486188-hq.mp3",
+  "ziel_dauer": 0.26,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "kwahmah_02",
+   "werk": "Single Dog Bark",
+   "url": "https://freesound.org/s/277058/",
+   "vermerk": "Freesound Nr. 277058, Suchbegriff „dog bark single\""
+  }
+ },
+ {
+  "ziel": "3/6_shh.mp3",
+  "label": "shh",
+  "rolle": "Ruhe gebieten",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/491/491965_10630312-hq.mp3",
+  "ziel_dauer": 0.44,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "cmilo1269",
+   "werk": "Old Men Shh.wav",
+   "url": "https://freesound.org/s/491965/",
+   "vermerk": "Freesound Nr. 491965, Suchbegriff „shh\""
+  }
+ },
+ {
+  "ziel": "3/7_scream.mp3",
+  "label": "scream",
+  "rolle": "Schrei",
+  "quelle": "freesound",
+  "quellpfad": null,
+  "adresse": "https://cdn.freesound.org/previews/400/400181_6351775-hq.mp3",
+  "ziel_dauer": 1.15,
+  "herkunft": {
+   "status": "frei",
+   "lizenz": "CC0 1.0 (Gemeinfreiheit)",
+   "urheber": "tomattka",
+   "werk": "Girl Screaming_05.wav",
+   "url": "https://freesound.org/s/400181/",
+   "vermerk": "Freesound Nr. 400181, Suchbegriff „scream\""
+  }
+ }
+]
