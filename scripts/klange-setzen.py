@@ -140,8 +140,8 @@ def main():
         anker(stelle in e, "Ankerstelle in app-settings.svelte nicht gefunden")
         e = e.replace(stelle,
                       '</div>\n\n<p class="mt-hinweis">' + NOTIZ_KURZ + "</p>\n\n<style>", 1)
-        regel = "  .mt-hinweis {\n    text-align: center;\n    font-size: 0.5rem;\n" \
-                "    opacity: 0.6;\n    margin: 0.1rem 0 0;\n  }\n"
+        regel = "  .mt-hinweis {\n    text-align: center;\n    font-size: 0.65rem;\n" \
+                "    opacity: 0.75;\n    margin: 0.15rem 0 0;\n  }\n"
         anker("</style>" in e, "kein Stilblock in app-settings.svelte")
         e = e.replace("</style>", regel + "</style>", 1)
         einst.write_text(e)
